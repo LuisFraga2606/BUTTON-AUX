@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFCFC"
+    android:weightSum="20" >
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/avConfetti"
+        android:layout_width="300sp"
+        android:layout_height="300sp"
+        android:layout_marginLeft="7sp"
+        android:layout_marginTop="50sp"
+        app:lottie_fileName="standbotonpanicogrande.json"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+
+        android:layout_gravity="center"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Button Aux"
+        android:fontFamily="sans-serif-smallcaps"
+        android:fontFeatureSettings="@string/app_name"
+        android:id="@+id/tvHACK"
+        android:textStyle="normal"
+        android:layout_margin="10sp"
+        android:layout_weight="10"
+        android:typeface="sans"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="1sp"
+        android:textSize="40sp"
+        android:textColor="#B53F3F"/>
+
+
+
+</LinearLayout>
+
+
+
+
+
+</LinearLayout>

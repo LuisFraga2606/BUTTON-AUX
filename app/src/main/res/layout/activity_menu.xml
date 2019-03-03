@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MENU">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="30">
+
+        <TextView
+            android:id="@+id/CAJA"
+            android:layout_width="match_parent"
+            android:layout_margin="20sp"
+            android:text="jbabdjbajdbjadjnadjnajndjadjjasndjandjnsajdnajdnjdanjadsnjn"
+            android:layout_height="100sp"
+            android:textSize="30sp"
+            android:layout_weight="10"
+            android:textAlignment="center"
+
+            android:background="#BEB6B6"
+            style="@style/AppTheme"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="10"
+        android:layout_gravity="center">
+
+
+        <Button
+            android:id="@+id/btnCentro"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="OFF"
+            android:layout_height="250sp"
+            android:layout_weight="10"
+            android:textSize="50sp"
+            android:textColor="#FFFFFF"
+            android:layout_width="300sp"
+            android:layout_marginTop="10sp"
+            android:enabled="false"
+            android:background="@drawable/circle"
+            />
+
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30sp"
+            android:layout_weight="10"
+            android:weightSum="30">
+
+            <Button
+                android:id="@+id/btnPanic"
+                android:layout_weight="10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Alerta"
+                android:textSize="15sp"
+                android:textColor="#FFF7F7"
+                android:backgroundTint="#DD1515"
+                android:background="@drawable/circle"
+                android:layout_margin="10sp"
+                />
+            <Button
+                android:id="@+id/btnGame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Game"
+                android:textColor="#FFF7F7"
+                android:backgroundTint="#4CAF50"
+                android:textSize="15sp"
+                android:background="@drawable/circle"
+                android:layout_weight="10"
+                android:layout_margin="10sp"
+                />
+            <Button
+                android:id="@+id/btnReport"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Reporte"
+                android:textSize="15sp"
+                android:background="@drawable/circle"
+                android:textColor="#FFF7F7"
+                android:backgroundTint="#1518DD"
+                android:layout_weight="10"
+                android:layout_margin="10sp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
